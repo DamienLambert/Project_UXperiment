@@ -1,0 +1,82 @@
+body
+{
+
+    background-color: white;
+    background-image:url("accueil.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 400px;
+    margin: auto;
+
+
+}
+.tete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: black;
+    /*border-bottom-width: medium;*/
+    font-family: "Cloister Black";
+    font-size: 70px;
+    nav-bottom:
+}
+
+a{
+
+    color: white;
+    text-decoration: none;
+}
+
+p{
+
+    color: white;
+    text-decoration: none;
+
+}
+
+.infos
+{
+
+    display: flex;
+    justify-content: space-around;
+    font-family: "Cloister Black";
+    font-size: 30px;
+    background-color: black;
+    opacity : 0.5;
+    -moz-opacity : 0.5;
+    -ms-filter: "alpha(opacity=20)"; /* IE 8 */
+    filter : alpha(opacity=20); /* IE < 8 */
+
+
+}
+
+.corp {
+
+    font-size: 80px;
+
+    text-align: center;
+
+}
+
+.footer {
+
+    /*position: center; text-align: center;   height:50px; font-size: 30px;*/
+    position:relative;
+
+    bottom:0;
+
+    width:100%;
+
+    padding-top:50px;
+
+    height:50px;
+
+    text-align: center;
+
+    font-size: 30px;
+
+
+
+}
